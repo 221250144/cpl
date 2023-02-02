@@ -1,0 +1,6 @@
+
+/c:S1481"unused variable 'len'(íÆ¶Ý8·“ô¤Ø0
+/c:S1481	"unused variable 'num'(ññî²8·“ô¤Ø0
+dc:S5276"Jimplicit conversion loses integer precision: 'unsigned long long' to 'int'(íÆ¶Ý8¶œñ¤Ø0
+Oc:S1079"5Add a field width specifier to this "%s" placeholder.(±ÇãÇ8ºœñ¤Ø0
+Wc:S1854"=Value stored to 'len' during its initialization is never read(íÆ¶Ý8»œñ¤Ø0

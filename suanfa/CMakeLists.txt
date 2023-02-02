@@ -1,0 +1,8 @@
+add_executable(table99 table99.c)
+add_executable(Fabocci Fabocci.c)
+add_executable(perfect_number perfect_number.c)
+add_executable(array4_4 array4_4.c)
+add_executable(YangHui YangHui.c)
+add_executable(ChaRu ChaRu.c)
+add_executable(XiEr XiEr.c)
+add_executable(QuickSort QuickSort.c)
