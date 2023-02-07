@@ -39,52 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/86139/CLionProjects/untitled4/cmake-build-debug/2022-1-types-io/cmake_install.cmake")
-endif()
-
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for the subdirectory.
-  include("C:/Users/86139/CLionProjects/untitled4/cmake-build-debug/2022-2-if-for-array/cmake_install.cmake")
-endif()
-
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for the subdirectory.
-  include("C:/Users/86139/CLionProjects/untitled4/cmake-build-debug/2022-3-for-a-while/cmake_install.cmake")
-endif()
-
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for the subdirectory.
-  include("C:/Users/86139/CLionProjects/untitled4/cmake-build-debug/2022-4-loops/cmake_install.cmake")
-endif()
-
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for the subdirectory.
-  include("C:/Users/86139/CLionProjects/untitled4/cmake-build-debug/2022-5-function/cmake_install.cmake")
-endif()
-
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for the subdirectory.
-  include("C:/Users/86139/CLionProjects/untitled4/cmake-build-debug/2022-6-recursion/cmake_install.cmake")
-endif()
-
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for the subdirectory.
-  include("C:/Users/86139/CLionProjects/untitled4/cmake-build-debug/2022-7-data-types/cmake_install.cmake")
-endif()
-
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for the subdirectory.
-  include("C:/Users/86139/CLionProjects/untitled4/cmake-build-debug/2022-8-pointer-1/cmake_install.cmake")
-endif()
-
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for the subdirectory.
-  include("C:/Users/86139/CLionProjects/untitled4/cmake-build-debug/2022-9-more-pointers/cmake_install.cmake")
-endif()
-
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for the subdirectory.
-  include("C:/Users/86139/CLionProjects/untitled4/cmake-build-debug/2022-10-Struct 11-Linkedlist/cmake_install.cmake")
+  include("C:/Users/86139/CLionProjects/untitled4/cmake-build-debug/cpl_homework/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
@@ -104,22 +59,12 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/86139/CLionProjects/untitled4/cmake-build-debug/C-PL/cmake_install.cmake")
-endif()
-
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for the subdirectory.
   include("C:/Users/86139/CLionProjects/untitled4/cmake-build-debug/LuoGu/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
   include("C:/Users/86139/CLionProjects/untitled4/cmake-build-debug/contest/cmake_install.cmake")
-endif()
-
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for the subdirectory.
-  include("C:/Users/86139/CLionProjects/untitled4/cmake-build-debug/2021-exam/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)

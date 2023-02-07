@@ -1,0 +1,16 @@
+add_executable(sort sort.c)
+add_executable(calculator calculator.c)
+
+add_subdirectory(2021-exam)
+add_subdirectory(2022-1-types-io)
+add_subdirectory(2022-2-if-for-array)
+add_subdirectory(2022-3-for-a-while)
+add_subdirectory(2022-4-loops)
+add_subdirectory(2022-5-function)
+add_subdirectory(2022-6-recursion)
+add_subdirectory(2022-7-data-types)
+add_subdirectory(2022-8-pointer-1)
+add_subdirectory(2022-9-more-pointers)
+add_subdirectory("2022-10-Struct 11-Linkedlist")
+
+add_subdirectory(C-PL)
