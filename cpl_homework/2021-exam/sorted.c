@@ -4,33 +4,34 @@ int main()
 {
     int T = 0;
     scanf("%d",&T);
-    int n[15] = {0};
-    int m[15] = {0};
-    int strn[15][1005] = {0};
-    int strm[15][1005] = {0};
     for (int i = 0; i < T; ++i) {
-        scanf("%d%d",&n[i],&m[i]);
-        for (int j = 1; j <= n[i]; ++j) {
-            scanf("%d",&strn[i][j]);
+        int n = 0;
+        int m = 0;
+        int strn[1005] = {0};
+        int strm[1005] = {0};
+        scanf("%d%d",&n,&m);
+        for (int j = 1; j <= n; ++j) {
+            scanf("%d",&strn[j]);
         }
-        for (int j = 1; j <= m[i]; ++j) {
-            scanf("%d",&strm[i][j]);
-            int temp = strn[i][strm[i][j]];
-            for (int p = strm[i][j]; p > 0;p--) {
-                strn[i][p] = strn[i][p - 1];
+
+        for (int j = 1; j <= m; ++j) {
+            scanf("%d",&strm[j]);
+            int temp = strn[strm[j]];
+            for (int p = strm[j]; p > 0;p--) {
+                strn[p] = strn[p - 1];
             }
-            strn[i][1] = temp;
+            strn[1] = temp;
         }
 
         int judge = 0;
-        for (int q = 1; q < n[i]; ++q) {
-            if (strn[i][q] < strn[i][q + 1]) {
+        for (int q = 1; q < n; ++q) {
+            if (strn[q] > strn[q + 1]) {
                 judge = 1;
                 break;
             }
         }
 
-        if (judge == 0) {
+        if (judge == 1) {
             printf("mayi is a good teacher\n");
         } else {
             printf("I love C programming language\n");

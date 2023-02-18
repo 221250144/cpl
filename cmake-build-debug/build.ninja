@@ -261,6 +261,105 @@ build cpl_homework/2021-exam/sorted.exe: C_EXECUTABLE_LINKER__sorted_Debug cpl_h
   TARGET_IMPLIB = cpl_homework\2021-exam\libsorted.dll.a
   TARGET_PDB = sorted.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target bsearch
+
+
+#############################################
+# Order-only phony target for bsearch
+
+build cmake_object_order_depends_target_bsearch: phony || cpl_homework/2021-exam/CMakeFiles/bsearch.dir
+
+build cpl_homework/2021-exam/CMakeFiles/bsearch.dir/bsearch.c.obj: C_COMPILER__bsearch_Debug C$:/Users/86139/CLionProjects/untitled4/cpl_homework/2021-exam/bsearch.c || cmake_object_order_depends_target_bsearch
+  DEP_FILE = cpl_homework\2021-exam\CMakeFiles\bsearch.dir\bsearch.c.obj.d
+  FLAGS = -g
+  OBJECT_DIR = cpl_homework\2021-exam\CMakeFiles\bsearch.dir
+  OBJECT_FILE_DIR = cpl_homework\2021-exam\CMakeFiles\bsearch.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target bsearch
+
+
+#############################################
+# Link the executable cpl_homework\2021-exam\bsearch.exe
+
+build cpl_homework/2021-exam/bsearch.exe: C_EXECUTABLE_LINKER__bsearch_Debug cpl_homework/2021-exam/CMakeFiles/bsearch.dir/bsearch.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = cpl_homework\2021-exam\CMakeFiles\bsearch.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = cpl_homework\2021-exam\bsearch.exe
+  TARGET_IMPLIB = cpl_homework\2021-exam\libbsearch.dll.a
+  TARGET_PDB = bsearch.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target gobang
+
+
+#############################################
+# Order-only phony target for gobang
+
+build cmake_object_order_depends_target_gobang: phony || cpl_homework/2021-exam/CMakeFiles/gobang.dir
+
+build cpl_homework/2021-exam/CMakeFiles/gobang.dir/gobang.c.obj: C_COMPILER__gobang_Debug C$:/Users/86139/CLionProjects/untitled4/cpl_homework/2021-exam/gobang.c || cmake_object_order_depends_target_gobang
+  DEP_FILE = cpl_homework\2021-exam\CMakeFiles\gobang.dir\gobang.c.obj.d
+  FLAGS = -g
+  OBJECT_DIR = cpl_homework\2021-exam\CMakeFiles\gobang.dir
+  OBJECT_FILE_DIR = cpl_homework\2021-exam\CMakeFiles\gobang.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target gobang
+
+
+#############################################
+# Link the executable cpl_homework\2021-exam\gobang.exe
+
+build cpl_homework/2021-exam/gobang.exe: C_EXECUTABLE_LINKER__gobang_Debug cpl_homework/2021-exam/CMakeFiles/gobang.dir/gobang.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = cpl_homework\2021-exam\CMakeFiles\gobang.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = cpl_homework\2021-exam\gobang.exe
+  TARGET_IMPLIB = cpl_homework\2021-exam\libgobang.dll.a
+  TARGET_PDB = gobang.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target lineup
+
+
+#############################################
+# Order-only phony target for lineup
+
+build cmake_object_order_depends_target_lineup: phony || cpl_homework/2021-exam/CMakeFiles/lineup.dir
+
+build cpl_homework/2021-exam/CMakeFiles/lineup.dir/lineup.c.obj: C_COMPILER__lineup_Debug C$:/Users/86139/CLionProjects/untitled4/cpl_homework/2021-exam/lineup.c || cmake_object_order_depends_target_lineup
+  DEP_FILE = cpl_homework\2021-exam\CMakeFiles\lineup.dir\lineup.c.obj.d
+  FLAGS = -g
+  OBJECT_DIR = cpl_homework\2021-exam\CMakeFiles\lineup.dir
+  OBJECT_FILE_DIR = cpl_homework\2021-exam\CMakeFiles\lineup.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target lineup
+
+
+#############################################
+# Link the executable cpl_homework\2021-exam\lineup.exe
+
+build cpl_homework/2021-exam/lineup.exe: C_EXECUTABLE_LINKER__lineup_Debug cpl_homework/2021-exam/CMakeFiles/lineup.dir/lineup.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = cpl_homework\2021-exam\CMakeFiles\lineup.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = cpl_homework\2021-exam\lineup.exe
+  TARGET_IMPLIB = cpl_homework\2021-exam\liblineup.dll.a
+  TARGET_PDB = lineup.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -7188,6 +7287,72 @@ build LuoGu/4447.exe: C_EXECUTABLE_LINKER__4447_Debug LuoGu/CMakeFiles/4447.dir/
   TARGET_IMPLIB = LuoGu\lib4447.dll.a
   TARGET_PDB = 4447.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target 1102
+
+
+#############################################
+# Order-only phony target for 1102
+
+build cmake_object_order_depends_target_1102: phony || LuoGu/CMakeFiles/1102.dir
+
+build LuoGu/CMakeFiles/1102.dir/1102.c.obj: C_COMPILER__1102_Debug C$:/Users/86139/CLionProjects/untitled4/LuoGu/1102.c || cmake_object_order_depends_target_1102
+  DEP_FILE = LuoGu\CMakeFiles\1102.dir\1102.c.obj.d
+  FLAGS = -g
+  OBJECT_DIR = LuoGu\CMakeFiles\1102.dir
+  OBJECT_FILE_DIR = LuoGu\CMakeFiles\1102.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 1102
+
+
+#############################################
+# Link the executable LuoGu\1102.exe
+
+build LuoGu/1102.exe: C_EXECUTABLE_LINKER__1102_Debug LuoGu/CMakeFiles/1102.dir/1102.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = LuoGu\CMakeFiles\1102.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = LuoGu\1102.exe
+  TARGET_IMPLIB = LuoGu\lib1102.dll.a
+  TARGET_PDB = 1102.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 1873
+
+
+#############################################
+# Order-only phony target for 1873
+
+build cmake_object_order_depends_target_1873: phony || LuoGu/CMakeFiles/1873.dir
+
+build LuoGu/CMakeFiles/1873.dir/1873.c.obj: C_COMPILER__1873_Debug C$:/Users/86139/CLionProjects/untitled4/LuoGu/1873.c || cmake_object_order_depends_target_1873
+  DEP_FILE = LuoGu\CMakeFiles\1873.dir\1873.c.obj.d
+  FLAGS = -g
+  OBJECT_DIR = LuoGu\CMakeFiles\1873.dir
+  OBJECT_FILE_DIR = LuoGu\CMakeFiles\1873.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 1873
+
+
+#############################################
+# Link the executable LuoGu\1873.exe
+
+build LuoGu/1873.exe: C_EXECUTABLE_LINKER__1873_Debug LuoGu/CMakeFiles/1873.dir/1873.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = LuoGu\CMakeFiles\1873.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = LuoGu\1873.exe
+  TARGET_IMPLIB = LuoGu\lib1873.dll.a
+  TARGET_PDB = 1873.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -7985,6 +8150,10 @@ build 1098: phony LuoGu/1098.exe
 
 build 1098.exe: phony LuoGu/1098.exe
 
+build 1102: phony LuoGu/1102.exe
+
+build 1102.exe: phony LuoGu/1102.exe
+
 build 1104: phony LuoGu/1104.exe
 
 build 1104.exe: phony LuoGu/1104.exe
@@ -8140,6 +8309,10 @@ build 1786.exe: phony LuoGu/1786.exe
 build 1803: phony LuoGu/1803.exe
 
 build 1803.exe: phony LuoGu/1803.exe
+
+build 1873: phony LuoGu/1873.exe
+
+build 1873.exe: phony LuoGu/1873.exe
 
 build 1908: phony LuoGu/1908.exe
 
@@ -8521,6 +8694,10 @@ build brackets: phony cpl_homework/2022-7-data-types/brackets.exe
 
 build brackets.exe: phony cpl_homework/2022-7-data-types/brackets.exe
 
+build bsearch: phony cpl_homework/2021-exam/bsearch.exe
+
+build bsearch.exe: phony cpl_homework/2021-exam/bsearch.exe
+
 build buddy: phony cpl_homework/2022-7-data-types/buddy.exe
 
 build buddy.exe: phony cpl_homework/2022-7-data-types/buddy.exe
@@ -8565,6 +8742,10 @@ build flip: phony cpl_homework/2022-3-for-a-while/flip.exe
 
 build flip.exe: phony cpl_homework/2022-3-for-a-while/flip.exe
 
+build gobang: phony cpl_homework/2021-exam/gobang.exe
+
+build gobang.exe: phony cpl_homework/2021-exam/gobang.exe
+
 build hhh: phony hhh.exe
 
 build integration: phony cpl_homework/2022-6-recursion/integration.exe
@@ -8590,6 +8771,10 @@ build josephus2.exe: phony cpl_homework/2022-10-Struct$ 11-Linkedlist/josephus2.
 build life: phony cpl_homework/2022-4-loops/life.exe
 
 build life.exe: phony cpl_homework/2022-4-loops/life.exe
+
+build lineup: phony cpl_homework/2021-exam/lineup.exe
+
+build lineup.exe: phony cpl_homework/2021-exam/lineup.exe
 
 build magic-square: phony cpl_homework/2022-5-function/magic-square.exe
 
@@ -8763,7 +8948,7 @@ build ECNU/all: phony ECNU/1017.exe ECNU/1062.exe
 #############################################
 # Folder: C:/Users/86139/CLionProjects/untitled4/cmake-build-debug/LuoGu
 
-build LuoGu/all: phony LuoGu/B3631.exe LuoGu/B3619.exe LuoGu/B3620.exe LuoGu/B2142.exe LuoGu/1000.exe LuoGu/1001.exe LuoGu/1002.exe LuoGu/1035.exe LuoGu/5707.exe LuoGu/3954.exe LuoGu/1427.exe LuoGu/1255.exe LuoGu/1042.exe LuoGu/2670.exe LuoGu/1601.exe LuoGu/5735.exe LuoGu/5736.exe LuoGu/5737.exe LuoGu/5738.exe LuoGu/5739.exe LuoGu/5461.exe LuoGu/5740.exe LuoGu/5741.exe LuoGu/5742.exe LuoGu/1075.exe LuoGu/1304.exe LuoGu/1217.exe LuoGu/2415.exe LuoGu/5743.exe LuoGu/5744.exe LuoGu/1563.exe LuoGu/1303.exe LuoGu/1009.exe LuoGu/2024.exe LuoGu/3156.exe LuoGu/3613.exe LuoGu/1996.exe LuoGu/4924.exe LuoGu/1328.exe LuoGu/1518.exe LuoGu/1067.exe LuoGu/1098.exe LuoGu/1065.exe LuoGu/1591.exe LuoGu/1249.exe LuoGu/1045.exe LuoGu/1226.exe LuoGu/1480.exe LuoGu/2005.exe LuoGu/2142.exe LuoGu/1932.exe LuoGu/1271.exe LuoGu/1177.exe LuoGu/1923.exe LuoGu/1059.exe LuoGu/1093.exe LuoGu/1781.exe LuoGu/2676.exe LuoGu/1116.exe LuoGu/1152.exe LuoGu/1068.exe LuoGu/5143.exe LuoGu/1104.exe LuoGu/1012.exe LuoGu/5855.exe LuoGu/2241.exe LuoGu/2089.exe LuoGu/1618.exe LuoGu/1036.exe LuoGu/1908.exe LuoGu/1966.exe LuoGu/1115.exe LuoGu/1157.exe LuoGu/1088.exe LuoGu/1706.exe LuoGu/1970.exe LuoGu/1551.exe LuoGu/8654.exe LuoGu/1760.exe LuoGu/3392.exe LuoGu/3654.exe LuoGu/1149.exe LuoGu/3799.exe LuoGu/2392.exe LuoGu/1757.exe LuoGu/2871.exe LuoGu/1049.exe LuoGu/1060.exe LuoGu/1164.exe LuoGu/1510.exe LuoGu/2036.exe LuoGu/1786.exe LuoGu/3367.exe LuoGu/1455.exe LuoGu/1536.exe LuoGu/3371.exe LuoGu/3370.exe LuoGu/3378.exe LuoGu/3383.exe LuoGu/2818.exe LuoGu/4994.exe LuoGu/1024.exe LuoGu/2249.exe LuoGu/2440.exe LuoGu/2240.exe LuoGu/1044.exe LuoGu/1028.exe LuoGu/1464.exe LuoGu/1928.exe LuoGu/2437.exe LuoGu/3612.exe LuoGu/1223.exe LuoGu/1803.exe LuoGu/1090.exe LuoGu/3817.exe LuoGu/1106.exe LuoGu/1478.exe LuoGu/5019.exe LuoGu/1208.exe LuoGu/1094.exe LuoGu/4995.exe LuoGu/4447.exe
+build LuoGu/all: phony LuoGu/B3631.exe LuoGu/B3619.exe LuoGu/B3620.exe LuoGu/B2142.exe LuoGu/1000.exe LuoGu/1001.exe LuoGu/1002.exe LuoGu/1035.exe LuoGu/5707.exe LuoGu/3954.exe LuoGu/1427.exe LuoGu/1255.exe LuoGu/1042.exe LuoGu/2670.exe LuoGu/1601.exe LuoGu/5735.exe LuoGu/5736.exe LuoGu/5737.exe LuoGu/5738.exe LuoGu/5739.exe LuoGu/5461.exe LuoGu/5740.exe LuoGu/5741.exe LuoGu/5742.exe LuoGu/1075.exe LuoGu/1304.exe LuoGu/1217.exe LuoGu/2415.exe LuoGu/5743.exe LuoGu/5744.exe LuoGu/1563.exe LuoGu/1303.exe LuoGu/1009.exe LuoGu/2024.exe LuoGu/3156.exe LuoGu/3613.exe LuoGu/1996.exe LuoGu/4924.exe LuoGu/1328.exe LuoGu/1518.exe LuoGu/1067.exe LuoGu/1098.exe LuoGu/1065.exe LuoGu/1591.exe LuoGu/1249.exe LuoGu/1045.exe LuoGu/1226.exe LuoGu/1480.exe LuoGu/2005.exe LuoGu/2142.exe LuoGu/1932.exe LuoGu/1271.exe LuoGu/1177.exe LuoGu/1923.exe LuoGu/1059.exe LuoGu/1093.exe LuoGu/1781.exe LuoGu/2676.exe LuoGu/1116.exe LuoGu/1152.exe LuoGu/1068.exe LuoGu/5143.exe LuoGu/1104.exe LuoGu/1012.exe LuoGu/5855.exe LuoGu/2241.exe LuoGu/2089.exe LuoGu/1618.exe LuoGu/1036.exe LuoGu/1908.exe LuoGu/1966.exe LuoGu/1115.exe LuoGu/1157.exe LuoGu/1088.exe LuoGu/1706.exe LuoGu/1970.exe LuoGu/1551.exe LuoGu/8654.exe LuoGu/1760.exe LuoGu/3392.exe LuoGu/3654.exe LuoGu/1149.exe LuoGu/3799.exe LuoGu/2392.exe LuoGu/1757.exe LuoGu/2871.exe LuoGu/1049.exe LuoGu/1060.exe LuoGu/1164.exe LuoGu/1510.exe LuoGu/2036.exe LuoGu/1786.exe LuoGu/3367.exe LuoGu/1455.exe LuoGu/1536.exe LuoGu/3371.exe LuoGu/3370.exe LuoGu/3378.exe LuoGu/3383.exe LuoGu/2818.exe LuoGu/4994.exe LuoGu/1024.exe LuoGu/2249.exe LuoGu/2440.exe LuoGu/2240.exe LuoGu/1044.exe LuoGu/1028.exe LuoGu/1464.exe LuoGu/1928.exe LuoGu/2437.exe LuoGu/3612.exe LuoGu/1223.exe LuoGu/1803.exe LuoGu/1090.exe LuoGu/3817.exe LuoGu/1106.exe LuoGu/1478.exe LuoGu/5019.exe LuoGu/1208.exe LuoGu/1094.exe LuoGu/4995.exe LuoGu/4447.exe LuoGu/1102.exe LuoGu/1873.exe
 
 # =============================================================================
 
@@ -8812,7 +8997,7 @@ build cpl_homework/all: phony cpl_homework/sort.exe cpl_homework/calculator.exe 
 #############################################
 # Folder: C:/Users/86139/CLionProjects/untitled4/cmake-build-debug/cpl_homework/2021-exam
 
-build cpl_homework/2021-exam/all: phony cpl_homework/2021-exam/sorted.exe
+build cpl_homework/2021-exam/all: phony cpl_homework/2021-exam/sorted.exe cpl_homework/2021-exam/bsearch.exe cpl_homework/2021-exam/gobang.exe cpl_homework/2021-exam/lineup.exe
 
 # =============================================================================
 

@@ -7,6 +7,9 @@ C:/Users/86139/CLionProjects/untitled4/cmake-build-debug/cpl_homework/CMakeFiles
 C:/Users/86139/CLionProjects/untitled4/cmake-build-debug/cpl_homework/CMakeFiles/edit_cache.dir
 C:/Users/86139/CLionProjects/untitled4/cmake-build-debug/cpl_homework/CMakeFiles/rebuild_cache.dir
 C:/Users/86139/CLionProjects/untitled4/cmake-build-debug/cpl_homework/2021-exam/CMakeFiles/sorted.dir
+C:/Users/86139/CLionProjects/untitled4/cmake-build-debug/cpl_homework/2021-exam/CMakeFiles/bsearch.dir
+C:/Users/86139/CLionProjects/untitled4/cmake-build-debug/cpl_homework/2021-exam/CMakeFiles/gobang.dir
+C:/Users/86139/CLionProjects/untitled4/cmake-build-debug/cpl_homework/2021-exam/CMakeFiles/lineup.dir
 C:/Users/86139/CLionProjects/untitled4/cmake-build-debug/cpl_homework/2021-exam/CMakeFiles/edit_cache.dir
 C:/Users/86139/CLionProjects/untitled4/cmake-build-debug/cpl_homework/2021-exam/CMakeFiles/rebuild_cache.dir
 C:/Users/86139/CLionProjects/untitled4/cmake-build-debug/cpl_homework/2022-1-types-io/CMakeFiles/change.dir
@@ -234,6 +237,8 @@ C:/Users/86139/CLionProjects/untitled4/cmake-build-debug/LuoGu/CMakeFiles/1208.d
 C:/Users/86139/CLionProjects/untitled4/cmake-build-debug/LuoGu/CMakeFiles/1094.dir
 C:/Users/86139/CLionProjects/untitled4/cmake-build-debug/LuoGu/CMakeFiles/4995.dir
 C:/Users/86139/CLionProjects/untitled4/cmake-build-debug/LuoGu/CMakeFiles/4447.dir
+C:/Users/86139/CLionProjects/untitled4/cmake-build-debug/LuoGu/CMakeFiles/1102.dir
+C:/Users/86139/CLionProjects/untitled4/cmake-build-debug/LuoGu/CMakeFiles/1873.dir
 C:/Users/86139/CLionProjects/untitled4/cmake-build-debug/LuoGu/CMakeFiles/edit_cache.dir
 C:/Users/86139/CLionProjects/untitled4/cmake-build-debug/LuoGu/CMakeFiles/rebuild_cache.dir
 C:/Users/86139/CLionProjects/untitled4/cmake-build-debug/contest/CMakeFiles/edit_cache.dir

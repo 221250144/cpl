@@ -92,7 +92,7 @@ void SelectSort (int *arr,int len) {
 int main () {
     int a[10] = {9,5,7,3,5,6,1,4,7,65};
     //StraightSort(a,10);
-    //MergeSort(a,0,9);
+    MergeSort(a,0,9);
     //BubbleSort(a,10);
     //SelectSort(a,10);
 
