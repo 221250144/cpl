@@ -12,6 +12,12 @@ C:/Users/86139/CLionProjects/untitled4/cmake-build-debug/cpl_homework/2021-exam/
 C:/Users/86139/CLionProjects/untitled4/cmake-build-debug/cpl_homework/2021-exam/CMakeFiles/lineup.dir
 C:/Users/86139/CLionProjects/untitled4/cmake-build-debug/cpl_homework/2021-exam/CMakeFiles/edit_cache.dir
 C:/Users/86139/CLionProjects/untitled4/cmake-build-debug/cpl_homework/2021-exam/CMakeFiles/rebuild_cache.dir
+C:/Users/86139/CLionProjects/untitled4/cmake-build-debug/cpl_homework/2022-exam/CMakeFiles/T1.dir
+C:/Users/86139/CLionProjects/untitled4/cmake-build-debug/cpl_homework/2022-exam/CMakeFiles/T2.dir
+C:/Users/86139/CLionProjects/untitled4/cmake-build-debug/cpl_homework/2022-exam/CMakeFiles/T3.dir
+C:/Users/86139/CLionProjects/untitled4/cmake-build-debug/cpl_homework/2022-exam/CMakeFiles/T4.dir
+C:/Users/86139/CLionProjects/untitled4/cmake-build-debug/cpl_homework/2022-exam/CMakeFiles/edit_cache.dir
+C:/Users/86139/CLionProjects/untitled4/cmake-build-debug/cpl_homework/2022-exam/CMakeFiles/rebuild_cache.dir
 C:/Users/86139/CLionProjects/untitled4/cmake-build-debug/cpl_homework/2022-1-types-io/CMakeFiles/change.dir
 C:/Users/86139/CLionProjects/untitled4/cmake-build-debug/cpl_homework/2022-1-types-io/CMakeFiles/sushu.dir
 C:/Users/86139/CLionProjects/untitled4/cmake-build-debug/cpl_homework/2022-1-types-io/CMakeFiles/jiecheng.dir

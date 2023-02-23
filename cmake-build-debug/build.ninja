@@ -389,6 +389,166 @@ build cpl_homework/2021-exam/rebuild_cache: phony cpl_homework/2021-exam/CMakeFi
 # =============================================================================
 
 # =============================================================================
+# Object build statements for EXECUTABLE target T1
+
+
+#############################################
+# Order-only phony target for T1
+
+build cmake_object_order_depends_target_T1: phony || cpl_homework/2022-exam/CMakeFiles/T1.dir
+
+build cpl_homework/2022-exam/CMakeFiles/T1.dir/T1.c.obj: C_COMPILER__T1_Debug C$:/Users/86139/CLionProjects/untitled4/cpl_homework/2022-exam/T1.c || cmake_object_order_depends_target_T1
+  DEP_FILE = cpl_homework\2022-exam\CMakeFiles\T1.dir\T1.c.obj.d
+  FLAGS = -g
+  OBJECT_DIR = cpl_homework\2022-exam\CMakeFiles\T1.dir
+  OBJECT_FILE_DIR = cpl_homework\2022-exam\CMakeFiles\T1.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target T1
+
+
+#############################################
+# Link the executable cpl_homework\2022-exam\T1.exe
+
+build cpl_homework/2022-exam/T1.exe: C_EXECUTABLE_LINKER__T1_Debug cpl_homework/2022-exam/CMakeFiles/T1.dir/T1.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = cpl_homework\2022-exam\CMakeFiles\T1.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = cpl_homework\2022-exam\T1.exe
+  TARGET_IMPLIB = cpl_homework\2022-exam\libT1.dll.a
+  TARGET_PDB = T1.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target T2
+
+
+#############################################
+# Order-only phony target for T2
+
+build cmake_object_order_depends_target_T2: phony || cpl_homework/2022-exam/CMakeFiles/T2.dir
+
+build cpl_homework/2022-exam/CMakeFiles/T2.dir/T2.c.obj: C_COMPILER__T2_Debug C$:/Users/86139/CLionProjects/untitled4/cpl_homework/2022-exam/T2.c || cmake_object_order_depends_target_T2
+  DEP_FILE = cpl_homework\2022-exam\CMakeFiles\T2.dir\T2.c.obj.d
+  FLAGS = -g
+  OBJECT_DIR = cpl_homework\2022-exam\CMakeFiles\T2.dir
+  OBJECT_FILE_DIR = cpl_homework\2022-exam\CMakeFiles\T2.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target T2
+
+
+#############################################
+# Link the executable cpl_homework\2022-exam\T2.exe
+
+build cpl_homework/2022-exam/T2.exe: C_EXECUTABLE_LINKER__T2_Debug cpl_homework/2022-exam/CMakeFiles/T2.dir/T2.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = cpl_homework\2022-exam\CMakeFiles\T2.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = cpl_homework\2022-exam\T2.exe
+  TARGET_IMPLIB = cpl_homework\2022-exam\libT2.dll.a
+  TARGET_PDB = T2.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target T3
+
+
+#############################################
+# Order-only phony target for T3
+
+build cmake_object_order_depends_target_T3: phony || cpl_homework/2022-exam/CMakeFiles/T3.dir
+
+build cpl_homework/2022-exam/CMakeFiles/T3.dir/T3.c.obj: C_COMPILER__T3_Debug C$:/Users/86139/CLionProjects/untitled4/cpl_homework/2022-exam/T3.c || cmake_object_order_depends_target_T3
+  DEP_FILE = cpl_homework\2022-exam\CMakeFiles\T3.dir\T3.c.obj.d
+  FLAGS = -g
+  OBJECT_DIR = cpl_homework\2022-exam\CMakeFiles\T3.dir
+  OBJECT_FILE_DIR = cpl_homework\2022-exam\CMakeFiles\T3.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target T3
+
+
+#############################################
+# Link the executable cpl_homework\2022-exam\T3.exe
+
+build cpl_homework/2022-exam/T3.exe: C_EXECUTABLE_LINKER__T3_Debug cpl_homework/2022-exam/CMakeFiles/T3.dir/T3.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = cpl_homework\2022-exam\CMakeFiles\T3.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = cpl_homework\2022-exam\T3.exe
+  TARGET_IMPLIB = cpl_homework\2022-exam\libT3.dll.a
+  TARGET_PDB = T3.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target T4
+
+
+#############################################
+# Order-only phony target for T4
+
+build cmake_object_order_depends_target_T4: phony || cpl_homework/2022-exam/CMakeFiles/T4.dir
+
+build cpl_homework/2022-exam/CMakeFiles/T4.dir/T4.c.obj: C_COMPILER__T4_Debug C$:/Users/86139/CLionProjects/untitled4/cpl_homework/2022-exam/T4.c || cmake_object_order_depends_target_T4
+  DEP_FILE = cpl_homework\2022-exam\CMakeFiles\T4.dir\T4.c.obj.d
+  FLAGS = -g
+  OBJECT_DIR = cpl_homework\2022-exam\CMakeFiles\T4.dir
+  OBJECT_FILE_DIR = cpl_homework\2022-exam\CMakeFiles\T4.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target T4
+
+
+#############################################
+# Link the executable cpl_homework\2022-exam\T4.exe
+
+build cpl_homework/2022-exam/T4.exe: C_EXECUTABLE_LINKER__T4_Debug cpl_homework/2022-exam/CMakeFiles/T4.dir/T4.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = cpl_homework\2022-exam\CMakeFiles\T4.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = cpl_homework\2022-exam\T4.exe
+  TARGET_IMPLIB = cpl_homework\2022-exam\libT4.dll.a
+  TARGET_PDB = T4.exe.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build cpl_homework/2022-exam/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D C:\Users\86139\CLionProjects\untitled4\cmake-build-debug\cpl_homework\2022-exam && "D:\Kugou\CLion 2022.2.3\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build cpl_homework/2022-exam/edit_cache: phony cpl_homework/2022-exam/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build cpl_homework/2022-exam/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D C:\Users\86139\CLionProjects\untitled4\cmake-build-debug\cpl_homework\2022-exam && "D:\Kugou\CLion 2022.2.3\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -SC:\Users\86139\CLionProjects\untitled4 -BC:\Users\86139\CLionProjects\untitled4\cmake-build-debug"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build cpl_homework/2022-exam/rebuild_cache: phony cpl_homework/2022-exam/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# C:/Users/86139/CLionProjects/untitled4/cpl_homework/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
 # Object build statements for EXECUTABLE target change
 
 
@@ -8670,6 +8830,22 @@ build QuickSort: phony suanfa/QuickSort.exe
 
 build QuickSort.exe: phony suanfa/QuickSort.exe
 
+build T1: phony cpl_homework/2022-exam/T1.exe
+
+build T1.exe: phony cpl_homework/2022-exam/T1.exe
+
+build T2: phony cpl_homework/2022-exam/T2.exe
+
+build T2.exe: phony cpl_homework/2022-exam/T2.exe
+
+build T3: phony cpl_homework/2022-exam/T3.exe
+
+build T3.exe: phony cpl_homework/2022-exam/T3.exe
+
+build T4: phony cpl_homework/2022-exam/T4.exe
+
+build T4.exe: phony cpl_homework/2022-exam/T4.exe
+
 build XiEr: phony suanfa/XiEr.exe
 
 build XiEr.exe: phony suanfa/XiEr.exe
@@ -8990,7 +9166,7 @@ build contest/third/all: phony contest/third/AAAA.exe contest/third/BBBB.exe con
 #############################################
 # Folder: C:/Users/86139/CLionProjects/untitled4/cmake-build-debug/cpl_homework
 
-build cpl_homework/all: phony cpl_homework/sort.exe cpl_homework/calculator.exe cpl_homework/2021-exam/all cpl_homework/2022-1-types-io/all cpl_homework/2022-2-if-for-array/all cpl_homework/2022-3-for-a-while/all cpl_homework/2022-4-loops/all cpl_homework/2022-5-function/all cpl_homework/2022-6-recursion/all cpl_homework/2022-7-data-types/all cpl_homework/2022-8-pointer-1/all cpl_homework/2022-9-more-pointers/all cpl_homework/2022-10-Struct$ 11-Linkedlist/all cpl_homework/C-PL/all
+build cpl_homework/all: phony cpl_homework/sort.exe cpl_homework/calculator.exe cpl_homework/2021-exam/all cpl_homework/2022-exam/all cpl_homework/2022-1-types-io/all cpl_homework/2022-2-if-for-array/all cpl_homework/2022-3-for-a-while/all cpl_homework/2022-4-loops/all cpl_homework/2022-5-function/all cpl_homework/2022-6-recursion/all cpl_homework/2022-7-data-types/all cpl_homework/2022-8-pointer-1/all cpl_homework/2022-9-more-pointers/all cpl_homework/2022-10-Struct$ 11-Linkedlist/all cpl_homework/C-PL/all
 
 # =============================================================================
 
@@ -9072,6 +9248,13 @@ build cpl_homework/2022-9-more-pointers/all: phony cpl_homework/2022-9-more-poin
 # =============================================================================
 
 #############################################
+# Folder: C:/Users/86139/CLionProjects/untitled4/cmake-build-debug/cpl_homework/2022-exam
+
+build cpl_homework/2022-exam/all: phony cpl_homework/2022-exam/T1.exe cpl_homework/2022-exam/T2.exe cpl_homework/2022-exam/T3.exe cpl_homework/2022-exam/T4.exe
+
+# =============================================================================
+
+#############################################
 # Folder: C:/Users/86139/CLionProjects/untitled4/cmake-build-debug/cpl_homework/C-PL
 
 build cpl_homework/C-PL/all: phony cpl_homework/C-PL/stack.exe cpl_homework/C-PL/split-sort.exe cpl_homework/C-PL/B.cpl.exe
@@ -9104,14 +9287,14 @@ build suanfa/all: phony suanfa/table99.exe suanfa/Fabocci.exe suanfa/perfect_num
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | ../CMakeLists.txt ../ECNU/CMakeLists.txt ../LuoGu/CMakeLists.txt ../contest/CMakeLists.txt ../contest/first/CMakeLists.txt ../contest/school/CMakeLists.txt ../contest/second/CMakeLists.txt ../contest/third/CMakeLists.txt ../cpl_homework/2021-exam/CMakeLists.txt ../cpl_homework/2022-1-types-io/CMakeLists.txt ../cpl_homework/2022-10-Struct$ 11-Linkedlist/CMakeLists.txt ../cpl_homework/2022-2-if-for-array/CMakeLists.txt ../cpl_homework/2022-3-for-a-while/CMakeLists.txt ../cpl_homework/2022-4-loops/CMakeLists.txt ../cpl_homework/2022-5-function/CMakeLists.txt ../cpl_homework/2022-6-recursion/CMakeLists.txt ../cpl_homework/2022-7-data-types/CMakeLists.txt ../cpl_homework/2022-8-pointer-1/CMakeLists.txt ../cpl_homework/2022-9-more-pointers/CMakeLists.txt ../cpl_homework/C-PL/CMakeLists.txt ../cpl_homework/CMakeLists.txt ../jiji/CMakeLists.txt ../leetcode/CMakeLists.txt ../suanfa/CMakeLists.txt CMakeCache.txt CMakeFiles/3.23.2/CMakeCCompiler.cmake CMakeFiles/3.23.2/CMakeCXXCompiler.cmake CMakeFiles/3.23.2/CMakeRCCompiler.cmake CMakeFiles/3.23.2/CMakeSystem.cmake D$:/Kugou/CLion$ 2022.2.3/bin/cmake/win/share/cmake-3.23/Modules/CMakeCInformation.cmake D$:/Kugou/CLion$ 2022.2.3/bin/cmake/win/share/cmake-3.23/Modules/CMakeCXXInformation.cmake D$:/Kugou/CLion$ 2022.2.3/bin/cmake/win/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake D$:/Kugou/CLion$ 2022.2.3/bin/cmake/win/share/cmake-3.23/Modules/CMakeGenericSystem.cmake D$:/Kugou/CLion$ 2022.2.3/bin/cmake/win/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake D$:/Kugou/CLion$ 2022.2.3/bin/cmake/win/share/cmake-3.23/Modules/CMakeLanguageInformation.cmake D$:/Kugou/CLion$ 2022.2.3/bin/cmake/win/share/cmake-3.23/Modules/CMakeRCInformation.cmake D$:/Kugou/CLion$ 2022.2.3/bin/cmake/win/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake D$:/Kugou/CLion$ 2022.2.3/bin/cmake/win/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake D$:/Kugou/CLion$ 2022.2.3/bin/cmake/win/share/cmake-3.23/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/Kugou/CLion$ 2022.2.3/bin/cmake/win/share/cmake-3.23/Modules/Compiler/GNU-C.cmake D$:/Kugou/CLion$ 2022.2.3/bin/cmake/win/share/cmake-3.23/Modules/Compiler/GNU-CXX.cmake D$:/Kugou/CLion$ 2022.2.3/bin/cmake/win/share/cmake-3.23/Modules/Compiler/GNU.cmake D$:/Kugou/CLion$ 2022.2.3/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/Kugou/CLion$ 2022.2.3/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-GNU-C.cmake D$:/Kugou/CLion$ 2022.2.3/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-GNU-CXX-ABI.cmake D$:/Kugou/CLion$ 2022.2.3/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-GNU-CXX.cmake D$:/Kugou/CLion$ 2022.2.3/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-GNU.cmake D$:/Kugou/CLion$ 2022.2.3/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-windres.cmake D$:/Kugou/CLion$ 2022.2.3/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows.cmake D$:/Kugou/CLion$ 2022.2.3/bin/cmake/win/share/cmake-3.23/Modules/Platform/WindowsPaths.cmake
+build build.ninja: RERUN_CMAKE | ../CMakeLists.txt ../ECNU/CMakeLists.txt ../LuoGu/CMakeLists.txt ../contest/CMakeLists.txt ../contest/first/CMakeLists.txt ../contest/school/CMakeLists.txt ../contest/second/CMakeLists.txt ../contest/third/CMakeLists.txt ../cpl_homework/2021-exam/CMakeLists.txt ../cpl_homework/2022-1-types-io/CMakeLists.txt ../cpl_homework/2022-10-Struct$ 11-Linkedlist/CMakeLists.txt ../cpl_homework/2022-2-if-for-array/CMakeLists.txt ../cpl_homework/2022-3-for-a-while/CMakeLists.txt ../cpl_homework/2022-4-loops/CMakeLists.txt ../cpl_homework/2022-5-function/CMakeLists.txt ../cpl_homework/2022-6-recursion/CMakeLists.txt ../cpl_homework/2022-7-data-types/CMakeLists.txt ../cpl_homework/2022-8-pointer-1/CMakeLists.txt ../cpl_homework/2022-9-more-pointers/CMakeLists.txt ../cpl_homework/2022-exam/CMakeLists.txt ../cpl_homework/C-PL/CMakeLists.txt ../cpl_homework/CMakeLists.txt ../jiji/CMakeLists.txt ../leetcode/CMakeLists.txt ../suanfa/CMakeLists.txt CMakeCache.txt CMakeFiles/3.23.2/CMakeCCompiler.cmake CMakeFiles/3.23.2/CMakeCXXCompiler.cmake CMakeFiles/3.23.2/CMakeRCCompiler.cmake CMakeFiles/3.23.2/CMakeSystem.cmake D$:/Kugou/CLion$ 2022.2.3/bin/cmake/win/share/cmake-3.23/Modules/CMakeCInformation.cmake D$:/Kugou/CLion$ 2022.2.3/bin/cmake/win/share/cmake-3.23/Modules/CMakeCXXInformation.cmake D$:/Kugou/CLion$ 2022.2.3/bin/cmake/win/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake D$:/Kugou/CLion$ 2022.2.3/bin/cmake/win/share/cmake-3.23/Modules/CMakeGenericSystem.cmake D$:/Kugou/CLion$ 2022.2.3/bin/cmake/win/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake D$:/Kugou/CLion$ 2022.2.3/bin/cmake/win/share/cmake-3.23/Modules/CMakeLanguageInformation.cmake D$:/Kugou/CLion$ 2022.2.3/bin/cmake/win/share/cmake-3.23/Modules/CMakeRCInformation.cmake D$:/Kugou/CLion$ 2022.2.3/bin/cmake/win/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake D$:/Kugou/CLion$ 2022.2.3/bin/cmake/win/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake D$:/Kugou/CLion$ 2022.2.3/bin/cmake/win/share/cmake-3.23/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/Kugou/CLion$ 2022.2.3/bin/cmake/win/share/cmake-3.23/Modules/Compiler/GNU-C.cmake D$:/Kugou/CLion$ 2022.2.3/bin/cmake/win/share/cmake-3.23/Modules/Compiler/GNU-CXX.cmake D$:/Kugou/CLion$ 2022.2.3/bin/cmake/win/share/cmake-3.23/Modules/Compiler/GNU.cmake D$:/Kugou/CLion$ 2022.2.3/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/Kugou/CLion$ 2022.2.3/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-GNU-C.cmake D$:/Kugou/CLion$ 2022.2.3/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-GNU-CXX-ABI.cmake D$:/Kugou/CLion$ 2022.2.3/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-GNU-CXX.cmake D$:/Kugou/CLion$ 2022.2.3/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-GNU.cmake D$:/Kugou/CLion$ 2022.2.3/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-windres.cmake D$:/Kugou/CLion$ 2022.2.3/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows.cmake D$:/Kugou/CLion$ 2022.2.3/bin/cmake/win/share/cmake-3.23/Modules/Platform/WindowsPaths.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build ../CMakeLists.txt ../ECNU/CMakeLists.txt ../LuoGu/CMakeLists.txt ../contest/CMakeLists.txt ../contest/first/CMakeLists.txt ../contest/school/CMakeLists.txt ../contest/second/CMakeLists.txt ../contest/third/CMakeLists.txt ../cpl_homework/2021-exam/CMakeLists.txt ../cpl_homework/2022-1-types-io/CMakeLists.txt ../cpl_homework/2022-10-Struct$ 11-Linkedlist/CMakeLists.txt ../cpl_homework/2022-2-if-for-array/CMakeLists.txt ../cpl_homework/2022-3-for-a-while/CMakeLists.txt ../cpl_homework/2022-4-loops/CMakeLists.txt ../cpl_homework/2022-5-function/CMakeLists.txt ../cpl_homework/2022-6-recursion/CMakeLists.txt ../cpl_homework/2022-7-data-types/CMakeLists.txt ../cpl_homework/2022-8-pointer-1/CMakeLists.txt ../cpl_homework/2022-9-more-pointers/CMakeLists.txt ../cpl_homework/C-PL/CMakeLists.txt ../cpl_homework/CMakeLists.txt ../jiji/CMakeLists.txt ../leetcode/CMakeLists.txt ../suanfa/CMakeLists.txt CMakeCache.txt CMakeFiles/3.23.2/CMakeCCompiler.cmake CMakeFiles/3.23.2/CMakeCXXCompiler.cmake CMakeFiles/3.23.2/CMakeRCCompiler.cmake CMakeFiles/3.23.2/CMakeSystem.cmake D$:/Kugou/CLion$ 2022.2.3/bin/cmake/win/share/cmake-3.23/Modules/CMakeCInformation.cmake D$:/Kugou/CLion$ 2022.2.3/bin/cmake/win/share/cmake-3.23/Modules/CMakeCXXInformation.cmake D$:/Kugou/CLion$ 2022.2.3/bin/cmake/win/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake D$:/Kugou/CLion$ 2022.2.3/bin/cmake/win/share/cmake-3.23/Modules/CMakeGenericSystem.cmake D$:/Kugou/CLion$ 2022.2.3/bin/cmake/win/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake D$:/Kugou/CLion$ 2022.2.3/bin/cmake/win/share/cmake-3.23/Modules/CMakeLanguageInformation.cmake D$:/Kugou/CLion$ 2022.2.3/bin/cmake/win/share/cmake-3.23/Modules/CMakeRCInformation.cmake D$:/Kugou/CLion$ 2022.2.3/bin/cmake/win/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake D$:/Kugou/CLion$ 2022.2.3/bin/cmake/win/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake D$:/Kugou/CLion$ 2022.2.3/bin/cmake/win/share/cmake-3.23/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/Kugou/CLion$ 2022.2.3/bin/cmake/win/share/cmake-3.23/Modules/Compiler/GNU-C.cmake D$:/Kugou/CLion$ 2022.2.3/bin/cmake/win/share/cmake-3.23/Modules/Compiler/GNU-CXX.cmake D$:/Kugou/CLion$ 2022.2.3/bin/cmake/win/share/cmake-3.23/Modules/Compiler/GNU.cmake D$:/Kugou/CLion$ 2022.2.3/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/Kugou/CLion$ 2022.2.3/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-GNU-C.cmake D$:/Kugou/CLion$ 2022.2.3/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-GNU-CXX-ABI.cmake D$:/Kugou/CLion$ 2022.2.3/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-GNU-CXX.cmake D$:/Kugou/CLion$ 2022.2.3/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-GNU.cmake D$:/Kugou/CLion$ 2022.2.3/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-windres.cmake D$:/Kugou/CLion$ 2022.2.3/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows.cmake D$:/Kugou/CLion$ 2022.2.3/bin/cmake/win/share/cmake-3.23/Modules/Platform/WindowsPaths.cmake: phony
+build ../CMakeLists.txt ../ECNU/CMakeLists.txt ../LuoGu/CMakeLists.txt ../contest/CMakeLists.txt ../contest/first/CMakeLists.txt ../contest/school/CMakeLists.txt ../contest/second/CMakeLists.txt ../contest/third/CMakeLists.txt ../cpl_homework/2021-exam/CMakeLists.txt ../cpl_homework/2022-1-types-io/CMakeLists.txt ../cpl_homework/2022-10-Struct$ 11-Linkedlist/CMakeLists.txt ../cpl_homework/2022-2-if-for-array/CMakeLists.txt ../cpl_homework/2022-3-for-a-while/CMakeLists.txt ../cpl_homework/2022-4-loops/CMakeLists.txt ../cpl_homework/2022-5-function/CMakeLists.txt ../cpl_homework/2022-6-recursion/CMakeLists.txt ../cpl_homework/2022-7-data-types/CMakeLists.txt ../cpl_homework/2022-8-pointer-1/CMakeLists.txt ../cpl_homework/2022-9-more-pointers/CMakeLists.txt ../cpl_homework/2022-exam/CMakeLists.txt ../cpl_homework/C-PL/CMakeLists.txt ../cpl_homework/CMakeLists.txt ../jiji/CMakeLists.txt ../leetcode/CMakeLists.txt ../suanfa/CMakeLists.txt CMakeCache.txt CMakeFiles/3.23.2/CMakeCCompiler.cmake CMakeFiles/3.23.2/CMakeCXXCompiler.cmake CMakeFiles/3.23.2/CMakeRCCompiler.cmake CMakeFiles/3.23.2/CMakeSystem.cmake D$:/Kugou/CLion$ 2022.2.3/bin/cmake/win/share/cmake-3.23/Modules/CMakeCInformation.cmake D$:/Kugou/CLion$ 2022.2.3/bin/cmake/win/share/cmake-3.23/Modules/CMakeCXXInformation.cmake D$:/Kugou/CLion$ 2022.2.3/bin/cmake/win/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake D$:/Kugou/CLion$ 2022.2.3/bin/cmake/win/share/cmake-3.23/Modules/CMakeGenericSystem.cmake D$:/Kugou/CLion$ 2022.2.3/bin/cmake/win/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake D$:/Kugou/CLion$ 2022.2.3/bin/cmake/win/share/cmake-3.23/Modules/CMakeLanguageInformation.cmake D$:/Kugou/CLion$ 2022.2.3/bin/cmake/win/share/cmake-3.23/Modules/CMakeRCInformation.cmake D$:/Kugou/CLion$ 2022.2.3/bin/cmake/win/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake D$:/Kugou/CLion$ 2022.2.3/bin/cmake/win/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake D$:/Kugou/CLion$ 2022.2.3/bin/cmake/win/share/cmake-3.23/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/Kugou/CLion$ 2022.2.3/bin/cmake/win/share/cmake-3.23/Modules/Compiler/GNU-C.cmake D$:/Kugou/CLion$ 2022.2.3/bin/cmake/win/share/cmake-3.23/Modules/Compiler/GNU-CXX.cmake D$:/Kugou/CLion$ 2022.2.3/bin/cmake/win/share/cmake-3.23/Modules/Compiler/GNU.cmake D$:/Kugou/CLion$ 2022.2.3/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/Kugou/CLion$ 2022.2.3/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-GNU-C.cmake D$:/Kugou/CLion$ 2022.2.3/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-GNU-CXX-ABI.cmake D$:/Kugou/CLion$ 2022.2.3/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-GNU-CXX.cmake D$:/Kugou/CLion$ 2022.2.3/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-GNU.cmake D$:/Kugou/CLion$ 2022.2.3/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-windres.cmake D$:/Kugou/CLion$ 2022.2.3/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows.cmake D$:/Kugou/CLion$ 2022.2.3/bin/cmake/win/share/cmake-3.23/Modules/Platform/WindowsPaths.cmake: phony
 
 
 #############################################

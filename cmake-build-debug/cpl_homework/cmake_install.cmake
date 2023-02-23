@@ -44,6 +44,11 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
+  include("C:/Users/86139/CLionProjects/untitled4/cmake-build-debug/cpl_homework/2022-exam/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
   include("C:/Users/86139/CLionProjects/untitled4/cmake-build-debug/cpl_homework/2022-1-types-io/cmake_install.cmake")
 endif()
 

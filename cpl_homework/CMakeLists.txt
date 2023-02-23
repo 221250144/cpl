@@ -2,6 +2,7 @@ add_executable(sort sort.c)
 add_executable(calculator calculator.c)
 
 add_subdirectory(2021-exam)
+add_subdirectory(2022-exam)
 add_subdirectory(2022-1-types-io)
 add_subdirectory(2022-2-if-for-array)
 add_subdirectory(2022-3-for-a-while)
